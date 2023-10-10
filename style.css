@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(coinphoto.jpg);
+    background-position: 100% 35%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+p{
+    text-align: center;
+    margin-top: 20vh;
+    color: white;
+    font-size: 4vh;
+}
+form{
+    padding: 2vh;
+    position: absolute;
+    top: 50%;
+    left:25%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    background-color: rgba(52, 75, 88, 0.641);
+    backdrop-filter: blur(4px);
+    border-radius: 10px 0px 10px 0px;
+}
+input{
+    margin: 2vh;
+    padding:2vh;
+}
+button{
+    /*width: 10vh;*/
+    aspect-ratio: 3/2;
+    padding: 2vh;
+   align-self: flex-end;
+   margin-right: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    cursor: pointer;
+}
+a{
+    color: rgb(0, 188, 188);
+    position: absolute;
+    top:62.5%;
+    left: 27%;
+    font-size: 10px;
+    cursor: pointer;
+}
