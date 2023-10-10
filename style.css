@@ -4,15 +4,17 @@
 }
 body{
     background-image: url(coinphoto.jpg);
-    background-position: 100% 35%;
+    background-position: 150% 50%;
     background-repeat: no-repeat;
     background-color: black;
+    background-size: 150%;
+    background-attachment: fixed;
 }
 p{
     text-align: center;
-    margin-top: 20vh;
+    margin-top: 15vh;
     color: white;
-    font-size: 4vh;
+    font-size: 3vh;
 }
 form{
     padding: 2vh;
