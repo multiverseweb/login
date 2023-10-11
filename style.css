@@ -3,18 +3,18 @@
     padding: 0;
 }
 body{
-    background-image: url(coinphoto.jpg);
-    background-position: 150% 50%;
+    background-image: url(business\ \(1\).jpg);
+    background-position: 50%;
     background-repeat: no-repeat;
     background-color: black;
-    background-size: 150%;
+    background-size: cover;
     background-attachment: fixed;
 }
 p{
     text-align: center;
-    margin-top: 13vh;
-    color: white;
-    font-size: 2vh;
+    margin-top: 17vh;
+    color: rgb(255, 255, 255);
+    font-size: 3vh;
 }
 form{
     padding: 2vh;
@@ -25,7 +25,7 @@ form{
     display: flex;
     flex-direction: column;
     width: 50vw;
-    background-color: rgba(52, 75, 88, 0.641);
+    background-color: rgba(27, 52, 66, 0.641);
     backdrop-filter: blur(4px);
     border-radius: 10px 0px 10px 0px;
 }
